@@ -1,0 +1,14 @@
+{
+    "1": {
+        "name":"team1",
+        "users": [
+            "asdas asdas", "Mikus"
+        ]
+    },
+    "2": {
+        "name":"team2",
+        "users": [
+            "asdas asdas", "Mikus"
+        ]
+    }
+}
