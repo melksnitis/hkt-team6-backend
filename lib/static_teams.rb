@@ -1,17 +1,19 @@
  class StaticTeams
 
   def teams
-    {
-      "1": {
-        name: 'team2',
+    [
+      {
+        id: 1,
+        name: 'Team 2',
         members: [
           "Aleksej Sokolov",
           "Mihkel Alavere",
           "Pablo Borges"
         ]
       },
-      "2": {
-        name: 'team3',
+      {
+        id: 2,
+        name: 'Team 3',
         members: [
           "Andrej",
           "Guilherme Augusto Alves",
@@ -19,16 +21,18 @@
           "Žygimantas Jurgelevičius"
         ]
       },
-      "3": {
-        name: 'team4',
+      {
+        id: 3,
+        name: 'Team 4',
         members: [
           "Edvardas Šmulaitis",
           "Igor Vaz",
           "Lukasz Hajduk"
         ]
       },
-      "4": {
-        name: 'team5',
+      {
+        id: 4,
+        name: 'Team 5',
         members: [
           "Filipe Abreu",
           "Manuel Ibáñez Martín",
@@ -36,8 +40,9 @@
           "Vyacheslav Belov"
         ]
       },
-      "5": {
-        name: 'team6',
+      {
+        id: 5,
+        name: 'Team 6',
         members: [
           "Eduardo Rebouças",
           "Mikus Elksnitis",
@@ -45,8 +50,9 @@
           "Tomas Lukas Komar"
         ]
       },
-      "6": {
-        name: 'team7',
+      {
+        id: 6,
+        name: 'Team 7',
         members: [
           "Adolfas Mackonis",
           "Arnas Fomenko",
@@ -54,8 +60,9 @@
           "Renan Filipe"
         ]
       },
-      "7": {
-        name: 'team8',
+      {
+        id: 7,
+        name: 'Team 8',
         members: [
           "Łukasz Tomczewski",
           "Mantas Gineitis",
@@ -63,14 +70,15 @@
           "Vilius Juodžiukynas"
         ]
       },
-      "8": {
-        name: 'team9',
+      {
+        id: 8,
+        name: 'Team 9',
         members: [
           "Gustavs Berzins",
           "Julius Gerulaitis",
           "Mindaugas Jankauskas"
         ]
       }
-    }
+    ]
   end
  end
